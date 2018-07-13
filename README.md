@@ -4,8 +4,8 @@ Try to do a Supervisor For Fun
 
 ## Program description:   
 
-SFF is an attempt to recode a supervisor similar to the Liunx-supervisor.
-It allows the user to control a number of processes and command on them.
+SFF is an attempt to recode a supervisor similar to the Linux-supervisor.
+It allows the user to control a number of processes and execute command on them.
 
 Available commands:    
 "Usage: command [optional params]\n"                                          
@@ -31,6 +31,13 @@ Once the program is launched, you can connect to it with netcat:
 ```  
 $>nc 127.0.0.1 9999
 ``` 
+
+/!\ The program is not clean yet. If the program is launched as a daemon. Kill the process after use.
+
+```
+ps -ef | grep sff
+kill -9
+```
 
 Daemonized option will be set ON by default in the future (At the moment set to OFF for debug)    
 
