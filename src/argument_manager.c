@@ -21,9 +21,9 @@ static void print_version()
 {
     printf("sff: version \?.\?.\?\?(\?)-release\n");
     printf("Supervisor For Fun\n");
-    printf("Copyright (C) 2018 pestbuns\n");
+    printf("Copyright (C) 2018 adugast\n");
     printf("MIT License: <https://opensource.org/licenses/MIT>\n");
-    printf("Git Repository: <https://github.com/pestbuns/sff>\n");
+    printf("Git Repository: <https://github.com/adugast/sff>\n");
     printf("\n");
     printf("This is free software; you are free to change and redistribute it.\n");
     printf("There is NO WARRANTY, to the extent permitted by law.\n");
